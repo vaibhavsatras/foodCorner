@@ -17,7 +17,7 @@ function Cards() {
 
     return (<>
         <div className="container">
-            <h2 className="mt-3 text-center">Add to Card Project</h2>
+            <h2 className="mt-10 text-center"></h2>
             <div className="row d-flex justify-content-center g-2 align-items-center card-item">
                 {
                     data.map((item,idx) => {

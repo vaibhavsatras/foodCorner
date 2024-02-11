@@ -51,7 +51,7 @@ function Header() {
         <>
             <nav className='navbar bg-dark navbar-dark navbar-expand'>
                 <div className="container justify-content-start">
-                    <h3><a href="#" className='navbar-brand'>Add To Cart</a></h3>
+                    <h3><a href="#" className='navbar-brand' style={{fontStyle:'italic'}}><span style={{color:'red' }}>Food</span> Corner</a></h3>
                     <ul className='navbar-nav fs-5'>
                         <li className='nav-item'><a href="#" className='nav-link'>Home</a></li>
                     </ul>
@@ -75,7 +75,7 @@ function Header() {
                                             <thead>
                                                 <tr style={{fontSize:'15px', textAlign:'center'}}>
                                                     <th>Photo</th>
-                                                    <th>Restaurant Name</th>
+                                                    <th>Food Details</th>
                                                 </tr>
                                             </thead>
                                             <tbody className='table-group-divider'>
